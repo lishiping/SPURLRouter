@@ -1,0 +1,24 @@
+PODS:
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - SPFastPush (0.8.0)
+  - SPWebView (0.0.14):
+    - SPWebView/Core (= 0.0.14)
+  - SPWebView/Core (0.0.14):
+    - NJKWebViewProgress (= 0.2.3)
+
+DEPENDENCIES:
+  - SPFastPush
+  - SPWebView
+
+SPEC CHECKSUMS:
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  SPFastPush: 732746c2a1b333acfda6500c2d1293f0abd14207
+  SPWebView: 0503106fe6e5346b7a8aa0a81db52e61645caf74
+
+PODFILE CHECKSUM: 5b7d03818459fd042d01805f0e029bbe89b33af0
+
+COCOAPODS: 1.1.1

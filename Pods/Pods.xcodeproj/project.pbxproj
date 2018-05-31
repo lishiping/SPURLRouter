@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4A2EE1A6620E363823FFEA8272E65F /* SPWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AA9B37DC9EF834DA611C9E814A853D /* SPWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2363D03F67E414A90D04A410D4FAD1FD /* SPFastPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 222E4DF0527086BADFCAB5F4BC0FACD8 /* SPFastPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A30F2C1A69B57BEFC852AB8FAA65610 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB28B3C2E08119F36CFEA2BA222783D6 /* JavaScriptCore.framework */; };
+		2BE0E852ABCD401802DD298E13555BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B3FAF9F10C02C74494D299548A786 /* Foundation.framework */; };
+		327F7F9500BA3DFBFC21577708D06D83 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CDCCCD07119640CE588D7A30FA807F /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		38DA9D4D2C73378AB559DE9E52B17235 /* NJKWebViewProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F81DFB2023FE561C2F434776621B0DD /* NJKWebViewProgress-dummy.m */; };
+		45083BD148D7EE556B87525C0509A3B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE313C52BA0B94A9F6A580020B830E4 /* UIKit.framework */; };
+		4555765FD8034B4B9AA0B7356074D523 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C35621AF93C664DD786A5A60A833CD /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538260EE6B5C13B4637DB0CC92D5915D /* SPWebVCDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B25450656BA5C5EDFB5F25AEAE6D5CE /* SPWebVCDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55CACBF2F124F8E5AAE35F2D943BC031 /* SPWebListDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B355879827760C36BAF1C34A5303893 /* SPWebListDemo.m */; };
+		603AE75BF0F8D6CDBFBF2919192B3D89 /* SPFastPush.m in Sources */ = {isa = PBXBuildFile; fileRef = B421885380FDE3D89BE2F6017F77D878 /* SPFastPush.m */; };
+		60C6E791C3560A5A2A860BD72F14122B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE58FB014679A0843551E2FAEB7DB166 /* WebKit.framework */; };
+		63602D1CC23FB6B58D5915B2136ECFFD /* SPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D096B5E305FE1379050ADDC537C284D /* SPWebViewController.m */; };
+		69D2AEB72D03CF320C53EFFA58A6ED05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B3FAF9F10C02C74494D299548A786 /* Foundation.framework */; };
+		79D7254C66467CE0D8164EB3436070BD /* Pods-SPURLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C591B02E2C27565289C2FAC229FBE /* Pods-SPURLRouter-dummy.m */; };
+		81B804417B93B68584A7F99C7FA540DE /* SPWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F68E3C74CA2B3CF2ADBF8F3A945B1C /* SPWebView-dummy.m */; };
+		895685DFBE1F008B90E2B52597F9D56D /* SPWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E72EF32D1E2AA13867AD55AFBF25EF /* SPWebView.m */; };
+		92DAB1D1FA893767B76C35E5F405756E /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E398601B9769D8D12BCCCC8EB52C952C /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD44C1E45BCD20A205BC6B8CB4F1CBB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B3FAF9F10C02C74494D299548A786 /* Foundation.framework */; };
+		CA5CB2499D33B67B6D168C097524E8B7 /* SPWebVCDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF082FEC46B73069F5FDAF7FF03ABF4A /* SPWebVCDemo.m */; };
+		CB55C61C2A831D11FE7DDFC4B4B2E0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B3FAF9F10C02C74494D299548A786 /* Foundation.framework */; };
+		CFE73847C66994DFF51EEF3636F19C4E /* SPWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D21EDB8BB410B4334F2E928B6A60E1C /* SPWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E194F1D6DCE1FC68A556F5AB5F4AE605 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE07A1B98C17AE83139004C74041BA2 /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60AB7CC7E35D7911A28433BA44E8A77 /* SPWebListDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = A51824A61ECC2EBEB4CDCF3EF49B01C5 /* SPWebListDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE98881094D0B7837172294CB82011C3 /* SPFastPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BD9982964880883A7C9AECD2E39B9 /* SPFastPush-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C42F8261060094ED953C8AAC540BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B98D05E8B382C659EBDB7D7729CA3E;
+			remoteInfo = SPFastPush;
+		};
+		7315CFE49D9EFF30E8DFB2FDD2AF5089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB7CB485E21C0801790635C83376BA2;
+			remoteInfo = NJKWebViewProgress;
+		};
+		A281F6E98A9DCDEDCB7E7597C4ADDA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB7CB485E21C0801790635C83376BA2;
+			remoteInfo = NJKWebViewProgress;
+		};
+		F91EA71F855D35D4F5BCBF4E1FDA9CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0889BED9DE9C898A85C605D7C1DEAA04;
+			remoteInfo = SPWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00563DE7C7AA5DB18224B03D55F2EC2B /* libSPWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSPWebView.a; path = libSPWebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F68E3C74CA2B3CF2ADBF8F3A945B1C /* SPWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPWebView-dummy.m"; sourceTree = "<group>"; };
+		08C15CC888E26BA6875FF46740C59D91 /* SPFastPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPFastPush.xcconfig; sourceTree = "<group>"; };
+		0D21EDB8BB410B4334F2E928B6A60E1C /* SPWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPWebViewController.h; path = SPWebView/SPWebView/Core/SPWebViewController.h; sourceTree = "<group>"; };
+		0E1B3FAF9F10C02C74494D299548A786 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		146324DDE2685B7DD88AF40199B8E348 /* libSPFastPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSPFastPush.a; path = libSPFastPush.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B25450656BA5C5EDFB5F25AEAE6D5CE /* SPWebVCDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPWebVCDemo.h; path = SPWebView/SPWebView/Core/SPWebVCDemo.h; sourceTree = "<group>"; };
+		1B355879827760C36BAF1C34A5303893 /* SPWebListDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPWebListDemo.m; path = SPWebView/SPWebView/Core/SPWebListDemo.m; sourceTree = "<group>"; };
+		1EE07A1B98C17AE83139004C74041BA2 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
+		222E4DF0527086BADFCAB5F4BC0FACD8 /* SPFastPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPFastPush.h; path = SPFastPush/SPFastPush/SPFastPush.h; sourceTree = "<group>"; };
+		28C35621AF93C664DD786A5A60A833CD /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		2B3C591B02E2C27565289C2FAC229FBE /* Pods-SPURLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPURLRouter-dummy.m"; sourceTree = "<group>"; };
+		33318AC60D1CA0262B0883481058DD45 /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
+		3D7FF3BBB8D9839D6E55CECC2E01EC8F /* Pods-SPURLRouter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPURLRouter-frameworks.sh"; sourceTree = "<group>"; };
+		4BE313C52BA0B94A9F6A580020B830E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4F81DFB2023FE561C2F434776621B0DD /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
+		5E58762A9F5E91732E463C89E4C79281 /* SPWebView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SPWebView.bundle; path = SPWebView/SPWebView/Resource/SPWebView.bundle; sourceTree = "<group>"; };
+		65F8DB0FCE1FA0D421D64720C915F4CE /* libNJKWebViewProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNJKWebViewProgress.a; path = libNJKWebViewProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7BD9982964880883A7C9AECD2E39B9 /* SPFastPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPFastPush-dummy.m"; sourceTree = "<group>"; };
+		82E9FC3EB031E92643A250A029DE9430 /* SPWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPWebView-prefix.pch"; sourceTree = "<group>"; };
+		84AA527FC6B2739FFA1826E9707A8D07 /* Pods-SPURLRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPURLRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92CC5E159F8DE785D44621DDE6DE8B01 /* Pods-SPURLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPURLRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CCF5EB0FA363A09BEA911606C5AA070 /* Pods-SPURLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPURLRouter.release.xcconfig"; sourceTree = "<group>"; };
+		9CF7B3FD91A47213C4ED369451286D77 /* Pods-SPURLRouter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPURLRouter-resources.sh"; sourceTree = "<group>"; };
+		9D096B5E305FE1379050ADDC537C284D /* SPWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPWebViewController.m; path = SPWebView/SPWebView/Core/SPWebViewController.m; sourceTree = "<group>"; };
+		A0C3646E0DEBB4D471957C99E942C6C4 /* Pods-SPURLRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPURLRouter-acknowledgements.plist"; sourceTree = "<group>"; };
+		A51824A61ECC2EBEB4CDCF3EF49B01C5 /* SPWebListDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPWebListDemo.h; path = SPWebView/SPWebView/Core/SPWebListDemo.h; sourceTree = "<group>"; };
+		A6F0D7A4C9927FEB1A6CB930031789A9 /* libPods-SPURLRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SPURLRouter.a"; path = "libPods-SPURLRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A806553D046290A2AB2683320E165B02 /* SPFastPush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPFastPush-prefix.pch"; sourceTree = "<group>"; };
+		AB28B3C2E08119F36CFEA2BA222783D6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		B421885380FDE3D89BE2F6017F77D878 /* SPFastPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPFastPush.m; path = SPFastPush/SPFastPush/SPFastPush.m; sourceTree = "<group>"; };
+		BE58FB014679A0843551E2FAEB7DB166 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF082FEC46B73069F5FDAF7FF03ABF4A /* SPWebVCDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPWebVCDemo.m; path = SPWebView/SPWebView/Core/SPWebVCDemo.m; sourceTree = "<group>"; };
+		CF3CB0C0FC55E40E107E10EC2A4056F6 /* SPWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPWebView.xcconfig; sourceTree = "<group>"; };
+		D3AA9B37DC9EF834DA611C9E814A853D /* SPWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPWebView.h; path = SPWebView/SPWebView/Core/SPWebView.h; sourceTree = "<group>"; };
+		D6CDCCCD07119640CE588D7A30FA807F /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		E398601B9769D8D12BCCCC8EB52C952C /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		ED3AE82D2B333D82742015AD5041E354 /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
+		F1E72EF32D1E2AA13867AD55AFBF25EF /* SPWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPWebView.m; path = SPWebView/SPWebView/Core/SPWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DDB2252030449FCDDE76C68E21C206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB55C61C2A831D11FE7DDFC4B4B2E0DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D10DC7570D40FEF574FA6DED7790F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE0E852ABCD401802DD298E13555BE5 /* Foundation.framework in Frameworks */,
+				2A30F2C1A69B57BEFC852AB8FAA65610 /* JavaScriptCore.framework in Frameworks */,
+				60C6E791C3560A5A2A860BD72F14122B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A82EDE856DDE7F283B4FECB1DAEE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD44C1E45BCD20A205BC6B8CB4F1CBB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D0D7249C77008047AE30B0BF8E29F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D2AEB72D03CF320C53EFFA58A6ED05 /* Foundation.framework in Frameworks */,
+				45083BD148D7EE556B87525C0509A3B2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E296BB6C992BA0FF654B873C62AC76 /* SPWebView */ = {
+			isa = PBXGroup;
+			children = (
+				359C47CB97BA7CB1A4A0F319B3A1D695 /* Core */,
+				8B131CED119DC0FE0F3204F3D0C39969 /* Resources */,
+				D90D9BFBFA1A87365978EB6E24A6AF1B /* Support Files */,
+			);
+			name = SPWebView;
+			path = SPWebView;
+			sourceTree = "<group>";
+		};
+		094CAE8176C551998185F38A69F324A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6454F28B04D1DB6E790865996A28B /* Pods-SPURLRouter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		101EE2CFA6BB6F4E49B2C85B5122CD3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B3FAF9F10C02C74494D299548A786 /* Foundation.framework */,
+				AB28B3C2E08119F36CFEA2BA222783D6 /* JavaScriptCore.framework */,
+				4BE313C52BA0B94A9F6A580020B830E4 /* UIKit.framework */,
+				BE58FB014679A0843551E2FAEB7DB166 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		133E657A252B8228EDFB55C75319FC1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08C15CC888E26BA6875FF46740C59D91 /* SPFastPush.xcconfig */,
+				6E7BD9982964880883A7C9AECD2E39B9 /* SPFastPush-dummy.m */,
+				A806553D046290A2AB2683320E165B02 /* SPFastPush-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPFastPush";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101EE2CFA6BB6F4E49B2C85B5122CD3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2281287B44F4DEED543114D89548378A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEB915E3DB3064BD23256CD615FFD9 /* NJKWebViewProgress */,
+				A34211F922A44D0A4091BF1B279C7219 /* SPFastPush */,
+				02E296BB6C992BA0FF654B873C62AC76 /* SPWebView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		359C47CB97BA7CB1A4A0F319B3A1D695 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A51824A61ECC2EBEB4CDCF3EF49B01C5 /* SPWebListDemo.h */,
+				1B355879827760C36BAF1C34A5303893 /* SPWebListDemo.m */,
+				1B25450656BA5C5EDFB5F25AEAE6D5CE /* SPWebVCDemo.h */,
+				BF082FEC46B73069F5FDAF7FF03ABF4A /* SPWebVCDemo.m */,
+				D3AA9B37DC9EF834DA611C9E814A853D /* SPWebView.h */,
+				F1E72EF32D1E2AA13867AD55AFBF25EF /* SPWebView.m */,
+				0D21EDB8BB410B4334F2E928B6A60E1C /* SPWebViewController.h */,
+				9D096B5E305FE1379050ADDC537C284D /* SPWebViewController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		429C743845BF30CF1B15918FCA1EC4C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1EE07A1B98C17AE83139004C74041BA2 /* NJKWebViewProgress.h */,
+				D6CDCCCD07119640CE588D7A30FA807F /* NJKWebViewProgress.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4C7E5E9D965986D3BBD8C2369E41F019 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33318AC60D1CA0262B0883481058DD45 /* NJKWebViewProgress.xcconfig */,
+				4F81DFB2023FE561C2F434776621B0DD /* NJKWebViewProgress-dummy.m */,
+				ED3AE82D2B333D82742015AD5041E354 /* NJKWebViewProgress-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NJKWebViewProgress";
+			sourceTree = "<group>";
+		};
+		6BD6454F28B04D1DB6E790865996A28B /* Pods-SPURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				84AA527FC6B2739FFA1826E9707A8D07 /* Pods-SPURLRouter-acknowledgements.markdown */,
+				A0C3646E0DEBB4D471957C99E942C6C4 /* Pods-SPURLRouter-acknowledgements.plist */,
+				2B3C591B02E2C27565289C2FAC229FBE /* Pods-SPURLRouter-dummy.m */,
+				3D7FF3BBB8D9839D6E55CECC2E01EC8F /* Pods-SPURLRouter-frameworks.sh */,
+				9CF7B3FD91A47213C4ED369451286D77 /* Pods-SPURLRouter-resources.sh */,
+				92CC5E159F8DE785D44621DDE6DE8B01 /* Pods-SPURLRouter.debug.xcconfig */,
+				9CCF5EB0FA363A09BEA911606C5AA070 /* Pods-SPURLRouter.release.xcconfig */,
+			);
+			name = "Pods-SPURLRouter";
+			path = "Target Support Files/Pods-SPURLRouter";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				2281287B44F4DEED543114D89548378A /* Pods */,
+				9243CDA90D80F30F722C7512AAB32736 /* Products */,
+				094CAE8176C551998185F38A69F324A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B131CED119DC0FE0F3204F3D0C39969 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E58762A9F5E91732E463C89E4C79281 /* SPWebView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9243CDA90D80F30F722C7512AAB32736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F8DB0FCE1FA0D421D64720C915F4CE /* libNJKWebViewProgress.a */,
+				A6F0D7A4C9927FEB1A6CB930031789A9 /* libPods-SPURLRouter.a */,
+				146324DDE2685B7DD88AF40199B8E348 /* libSPFastPush.a */,
+				00563DE7C7AA5DB18224B03D55F2EC2B /* libSPWebView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34211F922A44D0A4091BF1B279C7219 /* SPFastPush */ = {
+			isa = PBXGroup;
+			children = (
+				222E4DF0527086BADFCAB5F4BC0FACD8 /* SPFastPush.h */,
+				B421885380FDE3D89BE2F6017F77D878 /* SPFastPush.m */,
+				133E657A252B8228EDFB55C75319FC1A /* Support Files */,
+			);
+			name = SPFastPush;
+			path = SPFastPush;
+			sourceTree = "<group>";
+		};
+		A9803410BCA0528D673BBF7AAA580586 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				28C35621AF93C664DD786A5A60A833CD /* NJKWebViewProgressView.h */,
+				E398601B9769D8D12BCCCC8EB52C952C /* NJKWebViewProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+		D90D9BFBFA1A87365978EB6E24A6AF1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3CB0C0FC55E40E107E10EC2A4056F6 /* SPWebView.xcconfig */,
+				06F68E3C74CA2B3CF2ADBF8F3A945B1C /* SPWebView-dummy.m */,
+				82E9FC3EB031E92643A250A029DE9430 /* SPWebView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPWebView";
+			sourceTree = "<group>";
+		};
+		DDCEB915E3DB3064BD23256CD615FFD9 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				429C743845BF30CF1B15918FCA1EC4C0 /* Core */,
+				A9803410BCA0528D673BBF7AAA580586 /* ProgressView */,
+				4C7E5E9D965986D3BBD8C2369E41F019 /* Support Files */,
+			);
+			name = NJKWebViewProgress;
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0A139E25FEFF0C066621A0E690A75FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60AB7CC7E35D7911A28433BA44E8A77 /* SPWebListDemo.h in Headers */,
+				538260EE6B5C13B4637DB0CC92D5915D /* SPWebVCDemo.h in Headers */,
+				0A4A2EE1A6620E363823FFEA8272E65F /* SPWebView.h in Headers */,
+				CFE73847C66994DFF51EEF3636F19C4E /* SPWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB81C9A5BF83E18C248983C7610A2167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E194F1D6DCE1FC68A556F5AB5F4AE605 /* NJKWebViewProgress.h in Headers */,
+				4555765FD8034B4B9AA0B7356074D523 /* NJKWebViewProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424DCD890A9289B9F967F89FC6E4F2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2363D03F67E414A90D04A410D4FAD1FD /* SPFastPush.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0889BED9DE9C898A85C605D7C1DEAA04 /* SPWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A33226A08DD727A72BA0A50F1BB1C44 /* Build configuration list for PBXNativeTarget "SPWebView" */;
+			buildPhases = (
+				85642AA027A03C18C31F73D43FF1DD21 /* Sources */,
+				3D10DC7570D40FEF574FA6DED7790F16 /* Frameworks */,
+				E0A139E25FEFF0C066621A0E690A75FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470D09AC916FE8CA3A4C1288BBDAA24F /* PBXTargetDependency */,
+			);
+			name = SPWebView;
+			productName = SPWebView;
+			productReference = 00563DE7C7AA5DB18224B03D55F2EC2B /* libSPWebView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		99B98D05E8B382C659EBDB7D7729CA3E /* SPFastPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091D323E849F325C8FA357382C6E81A2 /* Build configuration list for PBXNativeTarget "SPFastPush" */;
+			buildPhases = (
+				C27C86D83931AA90370262A6D99DE26E /* Sources */,
+				D1D0D7249C77008047AE30B0BF8E29F0 /* Frameworks */,
+				F424DCD890A9289B9F967F89FC6E4F2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPFastPush;
+			productName = SPFastPush;
+			productReference = 146324DDE2685B7DD88AF40199B8E348 /* libSPFastPush.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB248A59E843B3B985A605C081DB49CE /* Pods-SPURLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61AFE06A2FDA0E9A6345D15D75AED93C /* Build configuration list for PBXNativeTarget "Pods-SPURLRouter" */;
+			buildPhases = (
+				23073FD557C2A8737DEDC57B2AE7E7D7 /* Sources */,
+				82A82EDE856DDE7F283B4FECB1DAEE14 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC6448AA0FCACFF73D8CE4364DFE2E6 /* PBXTargetDependency */,
+				25D00E4DD23BF91DFA19FC9E2CF49A83 /* PBXTargetDependency */,
+				6E9FA60BC578353D4C932FF830E0B8A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPURLRouter";
+			productName = "Pods-SPURLRouter";
+			productReference = A6F0D7A4C9927FEB1A6CB930031789A9 /* libPods-SPURLRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D966A99F8F3E1C7F15E6DF42CBC57B /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */;
+			buildPhases = (
+				5DCF53D88990B7A29C777B0A6A3E53D7 /* Sources */,
+				0DDB2252030449FCDDE76C68E21C206A /* Frameworks */,
+				EB81C9A5BF83E18C248983C7610A2167 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJKWebViewProgress;
+			productName = NJKWebViewProgress;
+			productReference = 65F8DB0FCE1FA0D421D64720C915F4CE /* libNJKWebViewProgress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9243CDA90D80F30F722C7512AAB32736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */,
+				CB248A59E843B3B985A605C081DB49CE /* Pods-SPURLRouter */,
+				99B98D05E8B382C659EBDB7D7729CA3E /* SPFastPush */,
+				0889BED9DE9C898A85C605D7C1DEAA04 /* SPWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23073FD557C2A8737DEDC57B2AE7E7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7254C66467CE0D8164EB3436070BD /* Pods-SPURLRouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCF53D88990B7A29C777B0A6A3E53D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA9D4D2C73378AB559DE9E52B17235 /* NJKWebViewProgress-dummy.m in Sources */,
+				327F7F9500BA3DFBFC21577708D06D83 /* NJKWebViewProgress.m in Sources */,
+				92DAB1D1FA893767B76C35E5F405756E /* NJKWebViewProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85642AA027A03C18C31F73D43FF1DD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CACBF2F124F8E5AAE35F2D943BC031 /* SPWebListDemo.m in Sources */,
+				CA5CB2499D33B67B6D168C097524E8B7 /* SPWebVCDemo.m in Sources */,
+				81B804417B93B68584A7F99C7FA540DE /* SPWebView-dummy.m in Sources */,
+				895685DFBE1F008B90E2B52597F9D56D /* SPWebView.m in Sources */,
+				63602D1CC23FB6B58D5915B2136ECFFD /* SPWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C86D83931AA90370262A6D99DE26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE98881094D0B7837172294CB82011C3 /* SPFastPush-dummy.m in Sources */,
+				603AE75BF0F8D6CDBFBF2919192B3D89 /* SPFastPush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D00E4DD23BF91DFA19FC9E2CF49A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPFastPush;
+			target = 99B98D05E8B382C659EBDB7D7729CA3E /* SPFastPush */;
+			targetProxy = 06C42F8261060094ED953C8AAC540BB6 /* PBXContainerItemProxy */;
+		};
+		470D09AC916FE8CA3A4C1288BBDAA24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NJKWebViewProgress;
+			target = CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */;
+			targetProxy = 7315CFE49D9EFF30E8DFB2FDD2AF5089 /* PBXContainerItemProxy */;
+		};
+		5FC6448AA0FCACFF73D8CE4364DFE2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NJKWebViewProgress;
+			target = CCB7CB485E21C0801790635C83376BA2 /* NJKWebViewProgress */;
+			targetProxy = A281F6E98A9DCDEDCB7E7597C4ADDA60 /* PBXContainerItemProxy */;
+		};
+		6E9FA60BC578353D4C932FF830E0B8A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPWebView;
+			target = 0889BED9DE9C898A85C605D7C1DEAA04 /* SPWebView */;
+			targetProxy = F91EA71F855D35D4F5BCBF4E1FDA9CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D2A53BF2218A2CA75ADDE6B1E7347F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CC5E159F8DE785D44621DDE6DE8B01 /* Pods-SPURLRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA9520273F7530BE0F3ADB815DC3B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3CB0C0FC55E40E107E10EC2A4056F6 /* SPWebView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SPWebView/SPWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9094445D0A9529491B6505E1C64DF784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C15CC888E26BA6875FF46740C59D91 /* SPFastPush.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SPFastPush/SPFastPush-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991D2ACF36318340024E3F7ACF7FB825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A77BFD91A5663234CD9D4DAF52524C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C15CC888E26BA6875FF46740C59D91 /* SPFastPush.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SPFastPush/SPFastPush-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A350A7FB1C7A48E1F1C0C10CF62D981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33318AC60D1CA0262B0883481058DD45 /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B80E52CE44CEE04C3580B01EB2C69C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCF5EB0FA363A09BEA911606C5AA070 /* Pods-SPURLRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C27CF4CE7A56F0F3079B9C10578CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3CB0C0FC55E40E107E10EC2A4056F6 /* SPWebView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SPWebView/SPWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FD8DF5FB905F82DE4E421CA293D42960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33318AC60D1CA0262B0883481058DD45 /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091D323E849F325C8FA357382C6E81A2 /* Build configuration list for PBXNativeTarget "SPFastPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9094445D0A9529491B6505E1C64DF784 /* Debug */,
+				9A77BFD91A5663234CD9D4DAF52524C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991D2ACF36318340024E3F7ACF7FB825 /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D966A99F8F3E1C7F15E6DF42CBC57B /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A350A7FB1C7A48E1F1C0C10CF62D981F /* Debug */,
+				FD8DF5FB905F82DE4E421CA293D42960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A33226A08DD727A72BA0A50F1BB1C44 /* Build configuration list for PBXNativeTarget "SPWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C27CF4CE7A56F0F3079B9C10578CCA /* Debug */,
+				4AA9520273F7530BE0F3ADB815DC3B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61AFE06A2FDA0E9A6345D15D75AED93C /* Build configuration list for PBXNativeTarget "Pods-SPURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A53BF2218A2CA75ADDE6B1E7347F6 /* Debug */,
+				B80E52CE44CEE04C3580B01EB2C69C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
